@@ -5,7 +5,7 @@ hexo clean && hexo deploy
 
 # 然后上传代码到hexo-blog仓库
 git add --all 
-git commit  -m 'update'
+git commit  -m ':apple:feature:update'
 git push  origin master
 echo -e "\ngit commit successful!"
 

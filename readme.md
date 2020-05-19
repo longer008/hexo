@@ -31,12 +31,12 @@
 + lazyload: true
 + pangu: true
 + vendors:
-  pjax: https://cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
-  mediumzoom: https://cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js
-  lazyload: https://cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
-  pangu: https://cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
-  disqusjs_js: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  pjax:  //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+  mediumzoom:  //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js
+  lazyload:  //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
+  pangu:  //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
+  disqusjs_js:  //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css:  //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
 + comments:
   active: valine #自选
   lazyload: true
@@ -60,7 +60,9 @@
 ```
 所有用到的静态图片得放在`next`主题目录下的`source\images`目录中
 
-https://cdn.jsdelivr.net/gh/jquery/jquery@3.2/dist/jquery.min.js
-https://cdn.jsdelivr.net/gh/longer008/images@1.0/2020/vip/2020-04-12_11-09-01.png
+ //cdn.jsdelivr.net/gh/jquery/jquery@3.2/dist/jquery.min.js
+ //cdn.jsdelivr.net/gh/longer008/images@1.0/2020/vip/2020-04-12_11-09-01.png
 
 修改`valine.svig`中的`{%- set valine_uri = theme.vendors.valine or '//unpkg.com/valine/dist/Valine.min.js' %}`为`{%- set valine_uri = theme.vendors.valine %}`
+
+https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/
