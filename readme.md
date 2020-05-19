@@ -65,17 +65,7 @@
 
 修改`valine.svig`中的`{%- set valine_uri = theme.vendors.valine or '//unpkg.com/valine/dist/Valine.min.js' %}`为`{%- set valine_uri = theme.vendors.valine %}`
 
-https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/
 
-https://cdn.jsdelivr.net/gh/longer008/images@1.0/2020/vip/2020-04-12_11-09-01.png
-
-https://cdn.jsdelivr.net/gh/longer008/hexo@1.0/js/next-boot.js
-
-
-
-https://raw.githubusercontent.com/longer008/hexo/gh-pages/images/avatar.jpg
-
-https://cdn.jsdelivr.net/gh/longer008/hexo/gh-pages/images/avatar.jpg
 
 查看release之后的文件：
 
