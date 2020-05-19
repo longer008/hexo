@@ -62,3 +62,5 @@
 
 https://cdn.jsdelivr.net/gh/jquery/jquery@3.2/dist/jquery.min.js
 https://cdn.jsdelivr.net/gh/longer008/images@1.0/2020/vip/2020-04-12_11-09-01.png
+
+修改`valine.svig`中的`{%- set valine_uri = theme.vendors.valine or '//unpkg.com/valine/dist/Valine.min.js' %}`为`{%- set valine_uri = theme.vendors.valine %}`
