@@ -73,14 +73,10 @@
 https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/
 ```
 
-给本地 js文件添加cdn服务：
-
-修改`next/sripts/helpers/engin.js`文件
-
-```diff
-+ return urls.map(url => this.js(`https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/${js}/${url}`)).join('');
-- return urls.map(url => this.js(`${js}/${url}`)).join('');
-+   return this.url_for(`https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/${internal}/${url}`);
-- return this.url_for(`${internal}/${url}`);
+给本地 Assets文件添加cdn服务：
+```
+css: https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/css
+js: https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/js
+images: https://cdn.jsdelivr.net/gh/longer008/longer008.github.io@2.0/images
 ```
 
